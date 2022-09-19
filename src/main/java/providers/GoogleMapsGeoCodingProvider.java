@@ -15,7 +15,7 @@ public class GoogleMapsGeoCodingProvider implements  GeoCodingProvider{
     private final String HEADER_NAME = "x-rapidapi-host";
     private final String HEADER_VALUE = "google-maps-geocoding.p.rapidapi.com";
     private final String KEY_HEADER = "x-rapidapi-key";
-    private final String KEY_VALUE = "1deb481aa1msh88f035f2151fa4bp11f3b7jsn2bfad1953b64";
+    private final String KEY_VALUE = "Insert your API key";
     private final OkHttpClient client;
 
     public GoogleMapsGeoCodingProvider() {
